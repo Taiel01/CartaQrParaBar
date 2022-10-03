@@ -1,0 +1,69 @@
+
+body{
+    background: #fff url(https://images4.alphacoders.com/106/106826.jpg) center center/cover no-repeat;
+    height: 674px;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.logo{
+    width: 200px;
+    margin-top: 10px;
+}
+
+.col-xs-12{
+    width: 100%;
+}
+.col-xs-6{
+    width: 50%;
+    padding: 15px;
+}
+.icono-cuadro{
+    width: 70px;
+    filter: drop-shadow(8px 8px 4px black);
+}
+.titulo {
+    color: #A8964C;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+}
+.slogan {
+    color: #A8964C;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.cuadro-menu{
+    border: 4px solid #000000;
+    border-radius: 20px;
+    padding: 6px;
+    font-size: 25px;
+    height: 135px;
+}
+.texto-cuadro{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.cuadro-menu:hover{
+    background-color: rgba(57, 57, 73, 0.443);
+    opacity: 80%;
+}
+@media screen and (max-width: 400px){
+    body{
+        background: #fff url(https://images4.alphacoders.com/106/106826.jpg) center center/cover no-repeat;
+        height: 800px;
+    }
+}
